@@ -21,7 +21,6 @@ public class Result {
         this.name = name;
         this.grade = grade;
     }
-
         
     public String getCode() {
         return code;
