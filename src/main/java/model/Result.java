@@ -13,26 +13,28 @@ package model;
 public class Result {
     private int resultId; 
     private final String code;
-    private final String name;
+    private final String studentID;
     private final String  grade;
 
-    public Result(String code, String name, String grade) {
+    public Result(String code, String studentID, String grade) {
         this.code = code;
-        this.name = name;
+        this.studentID = studentID;
         this.grade = grade;
     }
-        
+
     public String getCode() {
         return code;
     }
 
-    public String getName() {
-        return name;
+    public String getStudentID() {
+        return studentID;
     }
 
     public String getGrade() {
         return grade;
     }
+
+   
     
     
 }

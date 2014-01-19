@@ -11,27 +11,29 @@ package model;
  * @author user
  */
 public class Subject {
-    private final String code; 
-    private final String name;
+    private final String subjectCode; 
+    private final String subjectName;
     private final int noOfCredit;
 
-    public Subject(String code, String name, int noOfCredit) {
-        this.code = code;
-        this.name = name;
+    public Subject(String subjectCode, String subjectName, int noOfCredit) {
+        this.subjectCode = subjectCode;
+        this.subjectName = subjectName;
         this.noOfCredit = noOfCredit;
     }
 
-    public String getCode() {
-        return code;
+    public String getSubjectCode() {
+        return subjectCode;
     }
 
-    public String getName() {
-        return name;
+    public String getSubjectName() {
+        return subjectName;
     }
 
     public int getNoOfCredit() {
         return noOfCredit;
     }
+
+    
     
     
 }
